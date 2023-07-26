@@ -10,5 +10,5 @@ spec:
     kind: GitRepository
     name: infra-repo
     namespace: flux-system
-  path: ./monitoring/monitor-config/manifests
+  path: ./monitoring/monitoring-config/manifests
   prune: true

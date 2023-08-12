@@ -7,7 +7,7 @@ spec:
   hosts:
     - grafana.com
   gateways:
-    - ingress_gateway.istio-ingress
+    - ingress-gateway.istio-ingress
   http:
   - route:
     - destination:

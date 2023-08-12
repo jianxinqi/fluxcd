@@ -9,10 +9,10 @@ spec:
   gateways:
     - ingress_gateway.istio-ingress
   http:
-  -route:
-   - destination:
+  - route:
+    - destination:
        host: kube-prometheus-stack-grafana.monitoring.svc.cluster.local
        port: 
        number: 80
-   timeout: 30s
+    timeout: 30s
 

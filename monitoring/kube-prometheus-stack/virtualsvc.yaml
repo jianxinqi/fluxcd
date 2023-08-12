@@ -5,7 +5,7 @@ metadata:
   namespace: mornitoring
 spec:
   hosts:
-    - grafana.com
+    - grafana.jason.com
   gateways:
     - ingress-gateway.istio-ingress
   http:

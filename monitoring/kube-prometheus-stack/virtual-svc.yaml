@@ -8,7 +8,7 @@ spec:
   gateways:
   - istio-ingress
   http:
-    route:
-    - destination:
+    - route:
+      - destination:
         host: kube-prometheus-stack-grafana.kube-system.svc.cluster.local.
 

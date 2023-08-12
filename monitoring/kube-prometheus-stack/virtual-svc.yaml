@@ -7,12 +7,12 @@ spec:
   hosts:
     - grafana.com
   gateways:
-    - istio-ingress.istio-ingress
+    - ingress_gateway.istio-ingress
   http:
-    - match:
-      - uri:
-        prefix: "/"
-      route:
-      - destination:
-        host: kube-prometheus-stack-grafana.kube-system.svc.cluster.local
+  -route:
+   - destination:
+       host: kube-prometheus-stack-grafana.monitoring.svc.cluster.local
+       port: 
+       number: 80
+   timeout: 30s
 

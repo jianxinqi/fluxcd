@@ -8,7 +8,7 @@ spec:
   retryInterval: 30s
   sourceRef:
     kind: GitRepository
-    name: infra-repo
+    name: monitoring-repo
     namespace: flux-system
   path: ./monitoring/monitoring-config/manifests
   prune: true
